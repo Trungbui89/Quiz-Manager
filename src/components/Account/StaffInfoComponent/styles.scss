@@ -1,0 +1,33 @@
+.button-update-user {
+    font-family: 'Quicksand' !important;
+    text-transform: none !important;
+    color: #565656 !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    background-color: #F5F5F5 !important;
+    &:hover {
+        background-color: #dddddd !important;
+    }
+}
+.button-save-update{
+    font-family: 'Quicksand' !important;
+    text-transform: none !important;
+    color: #FFFFFF!important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    background-color: #121843 !important;
+}
+.title-table-info {
+    padding-top: 20px;
+    text-align: right;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    color: #565656 !important;
+}
+.css-1yhpg23-MuiTableCell-root {
+    padding: 0 !important;
+}
+.css-1ex1afd-MuiTableCell-root {
+    font-family: 'Quicksand' !important;
+    color: #646464 !important;
+}

@@ -1,0 +1,81 @@
+.box-info-quiz-finish {
+    box-shadow: 0px 14px 20px rgba(109, 141, 173, 0.25);
+    border-radius: 21px;
+    width: 75%;
+    margin:40px auto 0px auto;
+    & .box-info-quiz-finish-title {
+        font-family: 'Quicksand', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        color: #5A5A5A;
+        text-align: center;
+        padding-top: 30px;
+    }
+    & .box-info-quiz-finish-item-title {
+        & > div {
+            font-weight: 700;
+            font-size: 16px;
+            color: #5A5A5A;
+            padding-top: 15px;
+        }
+        & > p {
+            padding-top: 10px;
+        }
+    }
+    & .box-info-quiz-finish-item-content {
+        font-size: 16px;
+        color: #5A5A5A;
+        & > div {
+            padding-top: 15px;
+        }
+    }
+}
+
+.box-progress-chart {
+    width: 75%;
+    margin: auto;
+    padding-top: 20px;
+    .box-progress-info {
+        box-shadow: 0px 14px 10px rgba(109, 141, 173, 0.25);
+        border-radius: 21px;
+        text-align: left;
+        padding:30px 15px 30px 15px;
+        .box-progress-info-title{
+            color: #000000;
+            font-weight: 800;
+            font-size: 22px;
+            letter-spacing: 0.02em;
+            display: flex;
+        }
+        .box-progress-info-time {
+            padding-top: 20px;
+            font-weight: 800;
+            font-size: 22px;
+            letter-spacing: 0.02em;
+            padding-left: 40px;
+            span:nth-child(2){
+                color: #8292A1;
+            }
+        }
+        .box_time_detail_data {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            & > div {
+                color: #8292A1;
+                padding-top: 20px;
+                & > span {
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+    .pie-chart-group {
+        box-shadow: 0px 14px 10px rgba(109, 141, 173, 0.25);
+        border-radius: 21px;
+        padding: 18px;
+    }
+}

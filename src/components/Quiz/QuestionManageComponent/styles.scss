@@ -1,0 +1,66 @@
+
+.dialog-title {
+    color: #525252;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    margin: 15px;
+}
+
+.dialog-header {
+    border-bottom: 1px solid #B7B7B7;
+}
+
+.input-import {
+    max-width: 100%;
+    margin: 0px 0 0 0;
+    cursor: pointer;  
+}
+
+.group-button-upload {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: flex-end;
+    .cancel-button {
+        background-color: #F5F5F5;
+        border: 1px solid #F5F5F5;
+        color: #565656;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+        padding: 4px 10px;
+        height: 33px;
+        margin-right: 17px;
+    }
+    .import-button{
+        background-color: #161E54;
+        border: 1px solid #161E54;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+        padding: 4px 10px;
+        height: 33px;
+        &:hover {
+            color: #161E54;
+            border: 1px solid #161E54;
+        }
+    }
+}
+.css-1o657us-MuiSvgIcon-root {
+    font-size: 65px !important;
+}
+.table-list-question {
+    .column-1 {
+        width: 50px;
+    }
+    .column-2 {}
+    .column-3 {
+        width: 400px;
+    }
+    .column-4 {}
+    .column-5 {}
+    .column-6 {}
+    .column-7 {}
+}
